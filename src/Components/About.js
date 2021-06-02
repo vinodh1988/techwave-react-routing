@@ -1,12 +1,17 @@
 
 import React from 'react';
 
-
-const About= ()=>
+class About extends React.Component
 {
-    return(
-        <h1>About Component</h1>
-    )
+    render(){
+       return(
+           <h1>About Component</h1>
+        )
+       }
+
+       componentWillUnmount(){
+           console.log("About destroyed")
+       }
 }
 
 export default About

@@ -6,6 +6,7 @@ import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
 import Api from './Api';
 import About from  './About'
 import Contact from './Contact';
+import Hook from './Hook'
 
 class Home extends React.Component{
     render(){
@@ -28,6 +29,9 @@ class Home extends React.Component{
     <li className="nav-item">
       <Link className="nav-link" to="/about">About us</Link>
     </li>
+    <li className="nav-item">
+      <Link className="nav-link" to="/hook">Hook</Link>
+    </li>
   </ul>
 </nav>
                 </div>
@@ -36,6 +40,7 @@ class Home extends React.Component{
            <Route path="/" exact component={Api} ></Route>  
            <Route path="/contact" component={Contact}></Route>
            <Route path="/about" component={About}></Route>
+           <Route path="/hook" component={Hook}></Route>
                 </div>
             </div>
     </Router>

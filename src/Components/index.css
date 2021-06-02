@@ -5,3 +5,22 @@
   #content{
     overflow :hidden;
   }
+
+  table{
+    width: 800px;
+    margin: 50px;
+  }
+  th,td{
+    width: 150px;
+    padding:3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:30px;
+  }
+  th{
+    background-color: darkred;
+    color: white;
+  }
+  td{
+    background-color: wheat;
+    color: darkred;
+  }
